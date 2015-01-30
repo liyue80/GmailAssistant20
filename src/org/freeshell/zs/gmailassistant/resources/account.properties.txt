@@ -15,4 +15,4 @@ notify.label6:
 alert.popup:true
 alert.chime:true
 alert.periodic.bell:true
-alert.led:true
+alert.led:false

@@ -38,7 +38,7 @@ alert.popup.persistent.messages:false
 alert.chime.audio.clip:"/org/freeshell/zs/gmailassistant/resources/bells_call_2.wav"
 alert.periodic.bell.audio.clip:"/org/freeshell/zs/gmailassistant/resources/desk_bell.wav"
 alert.periodic.bell.interval.milliseconds:30000
-# alert.led.key:"num", "caps", or "scroll"
-alert.led.key:"num"
+# alert.led.key:"none", "num", "caps", or "scroll"
+alert.led.key:"none"
 # color:16738304 (orange)
 color:16738304

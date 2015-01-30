@@ -167,6 +167,7 @@ class Options
 
 		final String[] ledKeyStrings = new String[]
 		{
+			"None",
 			"Num-Lock key",
 			"Caps-Lock key",
 			"Scroll-Lock key"
@@ -174,6 +175,7 @@ class Options
 
 		ledKeyOptions = new String[]
 		{
+			"none",
 			"num",
 			"caps",
 			"scroll"

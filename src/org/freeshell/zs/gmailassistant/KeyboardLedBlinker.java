@@ -82,6 +82,11 @@ class KeyboardLedBlinker
 				final String key = parent.properties.getString("alert.led.key");
 				final int keyCode;
 
+				if ("none".equals(key))
+				{
+					return;
+				}
+
 				if ("num".equals(key))
 				{
 					keyCode = KeyEvent.VK_NUM_LOCK;

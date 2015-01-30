@@ -1,0 +1,18 @@
+# ACCOUNT PROPERTIES ("key:value")
+username:
+password:
+# color:16738304 (orange)
+color:16738304
+enabled:false
+# notify.on:"inbox", "any", or "labels"
+notify.on:"inbox"
+notify.label1:
+notify.label2:
+notify.label3:
+notify.label4:
+notify.label5:
+notify.label6:
+alert.popup:true
+alert.chime:true
+alert.periodic.bell:true
+alert.led:true

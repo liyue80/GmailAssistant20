@@ -1,0 +1,40 @@
+ *****************************************************************************
+ *                             GmailAssistant 2.0                            *
+ *                                 2008-09-07                                *
+ *                        Copyright 2008 Zach Scrivena                       *
+ *                           zachscrivena@gmail.com                          *
+ *                    http://gmailassistant.sourceforge.net/                 *
+ *                                                                           *
+ *                                 CHANGE LOG                                *
+ *****************************************************************************
+
+
+GmailAssistant 2.0 (2008-09-07)
+-------------------------------
+  - added support for IMAP IDLE
+  - added option for blinking other keyboard LEDs
+  - suppressed password prompt when loading profiles without passwords
+  - added "no unread mails" popup message
+  - added ability to minimize program on startup
+  - added advanced debugging capability
+  - automatic update check on startup
+
+
+GmailAssistant 1.1 (2008-03-16)
+-------------------------------
+  - added support for Google Apps email accounts
+  - added SOCKS proxy support
+  - added "periodic bell" alert method
+  - added support for saving and loading encrypted profile files with
+     account passwords saved
+  - added automatic profile loading on startup
+  - added option for persistent popup messages
+  - added option for adjusting mail check frequency
+  - fixed buggy mail snippets caused by missing mailcap file
+  - increased mail check frequency on error
+  - allow program to proceed without audio support
+
+
+GmailAssistant 1.0 (2008-02-24)
+-------------------------------
+  - first release of GmailAssistant

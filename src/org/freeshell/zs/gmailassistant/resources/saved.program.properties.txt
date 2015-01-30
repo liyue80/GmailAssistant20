@@ -1,0 +1,12 @@
+# SAVED PROGRAM PROPERTIES ("key")
+# version is saved explicitly
+always.on.top
+proxy.host
+proxy.port
+proxy.username
+proxy.password
+mail.check.interval.milliseconds
+mail.check.timeout.milliseconds
+alert.popup.persistent.messages
+alert.periodic.bell.interval.milliseconds
+alert.led.key

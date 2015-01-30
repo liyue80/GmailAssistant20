@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="tabbedPane" alignment="0" pref="301" max="32767" attributes="0"/>
+                  <Component id="buttonsPanel" alignment="0" pref="301" max="32767" attributes="2"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="tabbedPane" pref="261" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="buttonsPanel" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tabbedPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="generalPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="General">
+                <Property name="tabTitle" type="java.lang.String" value="General"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="generalError" alignment="0" pref="276" max="32767" attributes="1"/>
+                          <Component id="topBox" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="topBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="181" max="32767" attributes="0"/>
+                      <Component id="generalError" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="topBox">
+              <Properties>
+                <Property name="mnemonic" type="int" value="84"/>
+                <Property name="text" type="java.lang.String" value="Always on top"/>
+                <Property name="toolTipText" type="java.lang.String" value="Keep the GmailAssistant windows above other programs on the desktop"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="generalError">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;font color=&apos;red&apos;&gt;General error&lt;/font&gt;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="proxyPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Proxy">
+                <Property name="tabTitle" type="java.lang.String" value="Proxy"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="proxyError" alignment="1" pref="276" max="32767" attributes="0"/>
+                          <Component id="proxyLabel" alignment="0" pref="276" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="proxyUsernameLabel" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="proxyPortLabel" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="proxyHostLabel" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="proxyPasswordLabel" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="proxyHostField" alignment="0" pref="220" max="32767" attributes="1"/>
+                                  <Component id="proxyPortField" alignment="0" pref="220" max="32767" attributes="1"/>
+                                  <Component id="proxyUsernameField" alignment="0" pref="220" max="32767" attributes="1"/>
+                                  <Component id="proxyPasswordField" alignment="0" pref="220" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="proxyLabel" min="-2" pref="28" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="proxyHostLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="proxyHostField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="proxyPortLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="proxyPortField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="proxyUsernameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="proxyUsernameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="proxyPasswordLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="proxyPasswordField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="34" max="32767" attributes="0"/>
+                      <Component id="proxyError" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="proxyLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;GmailAssistant can use a proxy server that supports the SOCKS v4 or v5 protocol.&lt;html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="proxyHostLabel">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="104"/>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="proxyHostField"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Host:"/>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy host (e.g. socks.mydomain.com)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="proxyHostField">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy host (e.g. socks.mydomain.com)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="proxyPortField">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy port (e.g. 1080)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="proxyPortLabel">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="116"/>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="proxyPortField"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Port:"/>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy port (e.g. 1080)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="proxyUsernameLabel">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="117"/>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="proxyUsernameField"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Username:"/>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy username"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="proxyPasswordLabel">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="112"/>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="proxyPasswordField"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Password:"/>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy password"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="proxyUsernameField">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy username"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="proxyPasswordField">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="SOCKS proxy password"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="proxyError">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;font color=&apos;red&apos;&gt;Proxy error&lt;/font&gt;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="mailCheckPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Mail Check">
+                <Property name="tabTitle" type="java.lang.String" value="Mail Check"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="mailCheckError" alignment="1" pref="276" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="mailIntervalLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="mailIntervalField" pref="115" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="mailTimeoutLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="mailTimeoutField" pref="115" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mailIntervalLabel" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="mailIntervalField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mailTimeoutLabel" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="mailTimeoutField" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="142" max="32767" attributes="0"/>
+                      <Component id="mailCheckError" min="-2" pref="14" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="mailIntervalLabel">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="118"/>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="mailIntervalField"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Mail check interval (milliseconds):"/>
+                <Property name="toolTipText" type="java.lang.String" value="Interval (in milliseconds) between consecutive mail checks for each account"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="mailIntervalField">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="60000"/>
+                <Property name="toolTipText" type="java.lang.String" value="Interval (in milliseconds) between consecutive mail checks for each account"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mailTimeoutLabel">
+              <Properties>
+                <Property name="displayedMnemonic" type="int" value="117"/>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="mailTimeoutField"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Mail check timeout (milliseconds):"/>
+                <Property name="toolTipText" type="java.lang.String" value="Delay (in milliseconds) before an in-progress mail check is restarted"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="mailTimeoutField">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="600000"/>
+                <Property name="toolTipText" type="java.lang.String" value="Delay (in milliseconds) before an in-progress mail check is restarted"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mailCheckError">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;font color=&apos;red&apos;&gt;Mail check error&lt;/font&gt;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="alertsPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Alerts">
+                <Property name="tabTitle" type="java.lang.String" value="Alerts"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="alertsLedPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alertsPeriodicBellPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alertsPopupPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="alertsError" alignment="0" pref="276" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" max="-2" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="alertsPopupPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="alertsPeriodicBellPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="alertsLedPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="23" max="32767" attributes="0"/>
+                      <Component id="alertsError" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="alertsError">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;font color=&apos;red&apos;&gt;Alerts error&lt;/font&gt;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="alertsPopupPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Popup"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="persistentBox" pref="252" max="32767" attributes="1"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="persistentBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="persistentBox">
+                  <Properties>
+                    <Property name="mnemonic" type="int" value="112"/>
+                    <Property name="text" type="java.lang.String" value="Persistent popup messages"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Keep the popup messages visible after they are displayed"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="alertsPeriodicBellPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Periodic Bell"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="bellLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="bellField" pref="75" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="bellLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="bellField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="bellLabel">
+                  <Properties>
+                    <Property name="displayedMnemonic" type="int" value="98"/>
+                    <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                      <ComponentRef name="bellField"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Periodic bell interval (milliseconds):"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Interval (in milliseconds) between consecutive bells"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="bellField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="30000"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Interval (in milliseconds) between consecutive bells"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="alertsLedPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Keyboard LED"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ledKeyLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ledKeyComboBox" pref="185" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ledKeyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ledKeyComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="ledKeyComboBox">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="ledKeyLabel">
+                  <Properties>
+                    <Property name="displayedMnemonic" type="int" value="100"/>
+                    <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                      <ComponentRef name="ledKeyComboBox"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Blink LED of"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="buttonsPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="2"/>
+        <Property name="rows" type="int" value="1"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="okButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/org/freeshell/zs/gmailassistant/resources/tick.png"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="79"/>
+            <Property name="text" type="java.lang.String" value="OK"/>
+            <Property name="toolTipText" type="java.lang.String" value="Save current settings"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="cancelButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/org/freeshell/zs/gmailassistant/resources/cross.png"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="67"/>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+            <Property name="toolTipText" type="java.lang.String" value="Cancel changes"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

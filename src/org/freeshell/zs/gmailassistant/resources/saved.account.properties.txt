@@ -1,0 +1,16 @@
+# SAVED ACCOUNT PROPERTIES ("key")
+# username is saved explicitly
+# password is saved explicitly, if requested
+color
+enabled
+notify.on
+notify.label1
+notify.label2
+notify.label3
+notify.label4
+notify.label5
+notify.label6
+alert.popup
+alert.chime
+alert.periodic.bell
+alert.led

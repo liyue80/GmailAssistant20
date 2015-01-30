@@ -1,0 +1,23 @@
+GmailAssistant is a notifier for multiple Gmail and Google Apps email accounts. It accesses your accounts securely using IMAP over SSL. To use GmailAssistant, IMAP access must be enabled for your accounts (Settings > Forwarding and POP/IMAP > IMAP Access).
+
+SAVING AND LOADING PROFILES
+
+GmailAssistant program and account settings can be saved in an AES-128 encrypted profile file for subsequent loading (File > Load Profiles/Save Profile). To load a profile file on startup, use the --load command-line switch. For example, the following command loads two profile files:
+
+  java -jar GmailAssistant.jar --load:"C:\home.ga" --load:"D:\office.ga"
+
+When no profile files are specified on the command-line, GmailAssistant automatically loads all *.ga files in the current directory, in alphabetical order, on startup. Automatic loading of profile files can be suppressed by using the --noload command-line switch:
+
+  java -jar GmailAssistant.jar --noload
+
+MINIMIZE ON STARTUP
+
+GmailAssistant can be automatically minimized on startup by using the --minimize command-line switch:
+
+  java -jar GmailAssistant.jar --minimize
+
+This is useful when loading profile files without passwords.
+
+ADVANCED DEBUGGING
+
+Detailed error messages for login failures can be obtained by using the --debug command-line switch, and accessing the debug console (Help > Show Debug Console).

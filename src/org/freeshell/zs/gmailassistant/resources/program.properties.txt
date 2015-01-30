@@ -1,0 +1,44 @@
+# PROGRAM PROPERTIES ("key:value")
+name:"GmailAssistant"
+version:"2.0"
+date:"2008-09-07"
+homepage:"http://gmailassistant.sourceforge.net/"
+copyright:"Copyright 2008 Zach Scrivena"
+email:"zachscrivena@gmail.com"
+forum:"http://sourceforge.net/forum/?group_id=214554"
+account.properties:"/org/freeshell/zs/gmailassistant/resources/account.properties.txt"
+saved.program.properties:"/org/freeshell/zs/gmailassistant/resources/saved.program.properties.txt"
+saved.account.properties:"/org/freeshell/zs/gmailassistant/resources/saved.account.properties.txt"
+usage:"/org/freeshell/zs/gmailassistant/resources/usage.txt"
+about:"/org/freeshell/zs/gmailassistant/resources/about.txt"
+update.url:"http://gmailassistant.sourceforge.net/info/update.txt"
+gmail.username.suffix:"@gmail.com"
+gmail.username.pattern:"[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\.]+"
+google.apps.email.username.pattern:"[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\-\.]+@[^@\s]+\.[^@\.\s]+"
+incoming.protocol:"imaps"
+incoming.server:"imap.gmail.com"
+incoming.port:993
+profile.default.filename:"profile"
+profile.default.extension:"ga"
+profile.charset:"UTF-8"
+profile.with.password.byte.marker:255
+profile.without.password.byte.marker:0
+default.save.account.passwords:false
+recommended.minimum.password.length:8
+encryption.salt.length:8
+encryption.salt.iterations:1024
+always.on.top:false
+proxy.host:
+proxy.port:
+proxy.username:
+proxy.password:
+mail.check.interval.milliseconds:300000
+mail.check.timeout.milliseconds:450000
+alert.popup.persistent.messages:false
+alert.chime.audio.clip:"/org/freeshell/zs/gmailassistant/resources/bells_call_2.wav"
+alert.periodic.bell.audio.clip:"/org/freeshell/zs/gmailassistant/resources/desk_bell.wav"
+alert.periodic.bell.interval.milliseconds:30000
+# alert.led.key:"num", "caps", or "scroll"
+alert.led.key:"num"
+# color:16738304 (orange)
+color:16738304

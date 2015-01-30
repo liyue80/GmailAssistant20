@@ -1,0 +1,11 @@
+GmailAssistant is free and open source software released under the GNU General Public License version 2.
+
+GmailAssistant uses the mail services provided by JavaMail which is part of Project GlassFish. Most of Project GlassFish is dual-licensed under the Common Development and Distribution License version 1.0, and the GNU General Public License version 2. Project GlassFish is available from https://glassfish.dev.java.net/.
+
+The chime and periodic bell audio clips were created by Soundsnap users "shriek" and "discostu" respectively. The audio clips are released under the Soundsnap License and are available from http://www.soundsnap.com/.
+
+The icons used in GmailAssistant (except for the "g@" icon) belong to the "Silk" icon set version 1.3 created by Mark James. The icon set is released under the Creative Commons Attribution 2.5 License and is available from http://www.famfamfam.com/lab/icons/silk/.
+
+Thanks to everyone who has provided feedback on GmailAssistant. Your inputs have been invaluable in improving the program.
+
+GmailAssistant comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to redistribute it under certain conditions. Please see the accompanying documentation for details.
